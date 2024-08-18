@@ -1,0 +1,21 @@
+h1{
+    margin-left: 20px;
+
+}
+body{
+    margin: 0px;
+    padding: 0;
+    background-color: #b692614f;
+    color: white;
+}
+body, html, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+.bt-svg-icon {
+    fill: #ff9500; /* SVG ke fill color ko change karein */
+  }
+  .icon-item {
+    fill: #ff9500; /* SVG ke fill color ko change karein */
+  }

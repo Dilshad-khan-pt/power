@@ -1,0 +1,129 @@
+
+.main {
+  display: flex;
+  justify-content: flex-end; /* Push content towards the bottom */
+  align-items: center;
+  flex-direction: column;
+  height: 100vh; /* Ensures the component takes the full height of the viewport */
+  max-height: 100vh; /* Ensures the max height doesn't exceed the viewport height */
+  gap: 20px; /* Adds space between elements */
+ /* Adjusts the content position from the bottom */
+  background-color: #4CAF50; /* Trust and safety color */
+}
+
+  
+  .recharge-amt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adds space between rows */
+  }
+  
+  .first-row,
+  .second-row {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px; /* Adds space between buttons */
+  }
+  
+  button {
+    padding: 20px 40px;
+    font-size: 14px;
+    background-color: #4f9749c2; /* Primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #12e767; /* Darker color on hover */
+  }
+  
+  button:active {
+    background-color: #387632; /* Even darker color on click */
+  }
+  
+  input {
+    width: 80%;
+    height: 50px; /* Set height for better centering */
+    background-color: #106714;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px; /* Adjust font size for input text */
+    /* text-align: center; Center the input text */
+    padding: 0 10px; /* Padding inside the input */
+  }
+  
+  input::placeholder {
+    color: #ffffff; /* Placeholder color */
+    font-size: 22px; /* Larger placeholder text */
+    font-style: italic; /* Optional: Italic style */
+    text-align: center; /* Center the placeholder text */
+    line-height: 50px; /* Center the placeholder vertically */
+  }
+  
+  
+  
+  .method-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between options */
+    
+    
+  }
+  
+  .radio-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Change cursor on hover */
+    padding: 8px;
+    border: 1px solid #ddd; /* Border around each option */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #f9f9f9; /* Background color */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions */
+    white-space: nowrap;
+    height: 20px;
+  }
+  
+  .radio-label:hover {
+    background-color: #bbb03c; /* Background color on hover */
+  }
+  
+  .radio-label input {
+    margin-right: 10px; /* Space between radio button and label text */
+    accent-color: #ff9500; /* Color of the radio button */
+  }
+  
+  .radio-label.one {
+    color: #333; /* Text color for Method One */
+  }
+  
+  .radio-label.two {
+    color: #333; /* Text color for Method Two */
+  }
+  
+  .radio-label input:checked + span {
+    font-weight: bold; /* Bold text when selected */
+  }
+  .buy-button{
+    margin-top: 0px;
+    background-color: #12ed19;
+  }
+  .box{
+    margin-top: 15px;
+    width: 90%;
+    height: 20%;
+    border: 1px solid gray;
+  }
+  input[type="text"] {
+    width: 100%;        /* Set to 100% for responsive width, or */
+    max-width: 300px;   /* Set a maximum width */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+  }
+
+  .first-row button,  
+  .second-row button{
+    padding: 15px 35px;
+  }

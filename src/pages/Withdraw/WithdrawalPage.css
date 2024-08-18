@@ -1,0 +1,56 @@
+
+.withdrawal-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+   font-size: 18px;
+    border-radius: 10px;
+   background-color: #E8DDCE;
+    padding-bottom: 110px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"],
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #59755296;
+    font-size: 20px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  input::placeholder {
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #09269d; /* Change the placeholder text color if needed */
+    text-align: start;
+    /* Add more styling as needed */
+  }
+  

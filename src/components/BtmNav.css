@@ -1,0 +1,59 @@
+.btm-nav {
+    position: fixed; 
+    bottom: 0;
+    width: 100%; 
+    background-color: #edcda3;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+body{
+    color: white;
+}
+
+.bt-icons-container {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-around;
+    padding: 10px 0; 
+    z-index: 99;
+}
+
+.bt-icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+.bt-icon-item svg {
+    width: 30px; 
+    height: 35px;
+    margin-bottom: 5px; 
+}
+
+.bt-icon-item span {
+    font-size: 12px; 
+    color: #f6f4f4;
+}
+.bt-icon-item {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text horizontally */
+    padding: 10px;
+  }
+  
+  .bt-svg-icon {
+    width: 24px; /* Set the width of the SVG */
+    height: 24px; /* Set the height of the SVG */
+    margin-bottom: 4px; /* Space between icon and text */
+  }
+  
+  .bt-icon-item a {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Inherit text color */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  

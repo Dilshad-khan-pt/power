@@ -1,0 +1,48 @@
+.news-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E8DDCE;
+    border-radius: 10px;
+}
+
+.news-item {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #E8DDCE;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-image {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 10px;
+    
+}
+
+.news-content h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #000000;
+}
+
+.news-content p {
+    margin: 10px 0 0;
+    color: #dfad09db;
+    font-size: 16px;
+}
+.buy-button:disabled {
+  background: linear-gradient(to right, #ccc, #aaa); /* Grey gradient to show it's disabled */
+  cursor: not-allowed; /* Show not-allowed cursor on hover */
+  opacity: 0.6; /* Reduce opacity */
+}
